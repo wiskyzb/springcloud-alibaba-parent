@@ -1,0 +1,10 @@
+server:
+  port: 8082
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        #        server-addr: 如果nacos是集群的话 这里就是nginx 的地址了 nginx监听的地址和端口,用来转发给nacos集群的
+  application:
+    name: nacos-discovery-provider

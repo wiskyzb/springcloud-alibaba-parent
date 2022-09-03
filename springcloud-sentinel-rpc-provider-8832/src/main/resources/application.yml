@@ -1,0 +1,21 @@
+server:
+  port: 8832
+spring:
+  application:
+    name: springcloud-sentinel-rpc-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr:  127.0.0.1:8848
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8080
+      datasource:
+        ds1:  #Sentinel 配置持久化
+          nacos:
+            server-addr: 127.0.0.1:8848
+            dataId: springcloud-sentinel-rpc-provider
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow

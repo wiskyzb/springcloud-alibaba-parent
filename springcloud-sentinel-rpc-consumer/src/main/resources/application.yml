@@ -1,0 +1,16 @@
+server:
+  port: 8055
+spring:
+  application:
+    name: springcloud-sentinel-rpc
+  cloud:
+    nacos:
+      discovery:
+        server-addr:  127.0.0.1:8848
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8080
+feign:
+  sentinel:
+    enabled: true #开启sentinel对oppenfeign的支持  必须要写
