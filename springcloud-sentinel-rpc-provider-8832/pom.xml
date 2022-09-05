@@ -10,11 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>springcloud-sentinel-rpc-provider-8832</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>springcloud-sentinel-rpc-provider-8832</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

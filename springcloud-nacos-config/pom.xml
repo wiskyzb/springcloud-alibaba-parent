@@ -12,8 +12,7 @@
     <artifactId>springcloud-nacos-config</artifactId>
     <packaging>war</packaging>
 
-    <name>springcloud-nacos-config Maven Webapp</name>
-    <!-- FIXME change it to the project's website -->
+    <name>springcloud-nacos-config</name>
     <url>http://www.example.com</url>
 
     <properties>
