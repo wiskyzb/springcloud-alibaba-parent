@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud-nacos-comsumer</artifactId>
+    <artifactId>springcloud-seata-8833</artifactId>
     <packaging>jar</packaging>
 
-    <name>springcloud-nacos-comsumer</name>
+    <name>springcloud-seata-8833</name>
     <url>http://www.example.com</url>
 
     <properties>
@@ -30,8 +30,8 @@
         </dependency>
 
         <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
         </dependency>
 
         <dependency>
@@ -40,14 +40,14 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-loadbalancer</artifactId>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
 
     </dependencies>
 
     <build>
-        <finalName>springcloud-nacos-comsumer</finalName>
+        <finalName>springcloud-seata-8833</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>

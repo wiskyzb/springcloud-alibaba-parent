@@ -27,6 +27,8 @@
         <module>springcloud-sentinel-rpc-consumer</module>
         <module>springcloud-sentinel-rpc-provider-8831</module>
         <module>springcloud-sentinel-rpc-provider-8832</module>
+        <module>springcloud-seata-8833</module>
+        <module>springcloud-seata-8834</module>
     </modules>
 
 
