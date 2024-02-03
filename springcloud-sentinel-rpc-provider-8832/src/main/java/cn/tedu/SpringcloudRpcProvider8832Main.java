@@ -10,6 +10,5 @@ public class SpringcloudRpcProvider8832Main {
     public static void main(String[] args) {
         SpringApplication.run(SpringcloudRpcProvider8832Main.class);
         System.out.println("aaaa");
-        System.out.println("bbb");
     }
 }
